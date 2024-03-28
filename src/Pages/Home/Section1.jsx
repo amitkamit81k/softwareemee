@@ -18,7 +18,7 @@ function Section1() {
             </div>
             <div className="w-full md:w-1/2 mx-auto md:mx-6 px-6 hero_text text-center md:order-2 order-1">
               <h1 className="text-white text-sm[18px]">Welcome To</h1>
-              <h2 className="text-white">Parental Control Software</h2>
+              <h2 className="text-white">Parental Contro Software</h2>
               <p className="text-white pt-2 pb-4 mb-6">
                 Parental Control Software allows parents to monitor, manage, and
                 restrict their children's online activities, ensuring safe and
