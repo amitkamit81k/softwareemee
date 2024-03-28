@@ -24,7 +24,7 @@ function Contact() {
                         id="fullName"
                         placeholder="Full Name"
                         className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-400"
-                        name="fullName"
+                        name="fullName" autoComplete="off"
                       />
                     </div>
                     <div className="w-full md:w-1/2 px-2 mb-4">
@@ -33,7 +33,7 @@ function Contact() {
                         id="email"
                         placeholder="Email Address"
                         className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-400"
-                        name="email"
+                        name="email" autoComplete="off"
                       />
                     </div>
                     <div className="w-full md:w-1/2 px-2 mb-4">
@@ -42,7 +42,7 @@ function Contact() {
                         id="contact"
                         placeholder="Contact"
                         className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-400"
-                        name="contact"
+                        name="contact" autoComplete="off"
                       />
                     </div>
                     <div className="w-full md:w-1/2 px-2 mb-4">
@@ -51,7 +51,7 @@ function Contact() {
                         id="subject"
                         placeholder="Subject"
                         className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-400"
-                        name="subject"
+                        name="subject" autoComplete="off"
                       />
                     </div>
                     <div className="w-full px-2 mb-4">
@@ -60,7 +60,7 @@ function Contact() {
                         placeholder="Type your message in here..."
                         rows="5"
                         className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-400 resize-none"
-                        name="message"
+                        name="message" autoComplete="off"
                       ></textarea>
                     </div>
                     <div className="px-2">
